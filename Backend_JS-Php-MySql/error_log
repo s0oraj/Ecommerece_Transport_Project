@@ -1,0 +1,35 @@
+[24-Jun-2022 13:26:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/slogf/public_html/connect.php:9
+Stack trace:
+#0 /home2/slogf/public_html/add.php(4): Connection()
+#1 {main}
+  thrown in /home2/slogf/public_html/connect.php on line 9
+[24-Jun-2022 13:29:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/slogf/public_html/connect.php:9
+Stack trace:
+#0 /home2/slogf/public_html/add.php(4): Connection()
+#1 {main}
+  thrown in /home2/slogf/public_html/connect.php on line 9
+[24-Jun-2022 13:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/slogf/public_html/connect.php:9
+Stack trace:
+#0 /home2/slogf/public_html/add.php(4): Connection()
+#1 {main}
+  thrown in /home2/slogf/public_html/connect.php on line 9
+[24-Jun-2022 13:33:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/slogf/public_html/connect.php:9
+Stack trace:
+#0 /home2/slogf/public_html/add.php(4): Connection()
+#1 {main}
+  thrown in /home2/slogf/public_html/connect.php on line 9
+[24-Jun-2022 13:33:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/slogf/public_html/connect.php:9
+Stack trace:
+#0 /home2/slogf/public_html/add.php(4): Connection()
+#1 {main}
+  thrown in /home2/slogf/public_html/connect.php on line 9
+[24-Jun-2022 13:33:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/slogf/public_html/connect.php:9
+Stack trace:
+#0 /home2/slogf/public_html/indexx.php(5): Connection()
+#1 {main}
+  thrown in /home2/slogf/public_html/connect.php on line 9
+[24-Jun-2022 13:33:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/slogf/public_html/connect.php:9
+Stack trace:
+#0 /home2/slogf/public_html/indexx.php(5): Connection()
+#1 {main}
+  thrown in /home2/slogf/public_html/connect.php on line 9
