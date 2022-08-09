@@ -1,0 +1,122 @@
+.details{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.details .form-container {
+          
+
+   width: 600px;
+    height: 650px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color:#940000;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    
+}
+
+
+
+
+
+.details form .form-control {
+  
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+  width: 90%;
+    margin-left: 5%;
+    margin-right: 5px;
+    margin-bottom:20px;
+    margin-top: 5px;
+  text-indent: 6px;
+  height: 40px;
+  background-color:#E1EBEE; 
+font-size: 18px;
+}
+
+.details form .btn-primary {
+  background:#e20000;
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  text-shadow: none;
+  width: 100px;
+  height: 30px;
+  align-self: center;
+}
+
+.details form .btn-primary:hover, .details form.btn-primary:active {
+  background: #bb0000;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: block;
+ 
+}
+
+.btn1 {
+  border: 2px solid gray;
+  color: gray;
+  background-color: #E1EBEE;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+label{
+   margin-left: 40px;
+   font-weight: bold;
+   font-style: italic;
+   color: #00000;
+   font-size: 17px;
+  
+}
+.txt {
+  resize: none;
+  outline: none;
+  overflow: auto;
+ 
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 700px) {
+ 
+  .details .form-container {
+          width:600px;
+           height: 600px;
+  }
+
+  .details form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+  background-color:#E1EBEE;
+
+  height: 40px;
+}
+}
+

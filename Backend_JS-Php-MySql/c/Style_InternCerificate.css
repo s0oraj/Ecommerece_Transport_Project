@@ -1,0 +1,95 @@
+.details {
+          
+          text-align: center;
+
+          
+        }
+
+        .details .form-container {
+          
+
+          width: 850px;
+           height: 600px;
+          padding: 30px 10px;
+          top: 55%;
+          left: 50%;
+          position: absolute;
+          transform: translate(-50%,-50%);
+          box-sizing: border-box;
+          
+          display: inline-block;
+          border-radius: 10px;
+            
+          background: #FFeecc;
+          box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+        }
+
+
+
+
+.details form h2 {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.details form .form-control {
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+  width: 300px;
+    margin-left: 5%;
+    margin-bottom:20px;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.details form .btn-primary {
+  background:orange;
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  text-shadow: none;
+  width: 100px;
+  height: 25px;
+}
+
+.details form .btn-primary:hover, .details form.btn-primary:active {
+  background: #FD6A02;
+}
+
+
+.template
+{
+  width: 330px;
+  height: 330px;
+  float: left;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+ 
+  .details .form-container {
+          
+
+          width:650px;
+           height: 600px;
+  }
+  .details form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+  width: 200px;
+    margin-left: 5%;
+    margin-bottom:20px;
+  text-indent: 6px;
+  height: 40px;
+}
+}

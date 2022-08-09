@@ -1,0 +1,290 @@
+*{
+	margin:0;
+	padding:0;
+	background-position: center;
+}
+
+.menu-bar{
+	background: #000000;
+	text-align: right;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	font-weight: 700;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.menu{
+	background: #000000;
+	
+}
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	font-weight: 700;
+        overflow: hidden;
+}
+.menu ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+        float: left;
+}
+.menu li a{
+display: block;
+color: #fff;
+text-decoration: none;
+text-align: center;
+}
+.menu li a:hover{
+	text-decoration: none;
+	color: #fff;
+        background-color:#FF6347;
+}
+.active, .menu ul li:hover
+{
+	background: #FF6347;
+	border-radius: 3px;
+	text-align: center;
+	
+}
+
+.active, .menu-bar ul li:hover
+{
+	background: #FF6347;
+	border-radius: 3px;
+	text-align: center;
+	
+}
+.menu-bar .fa{
+	margin-right: 12px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: #000000;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width:150px;
+	padding: 10px;
+	border-bottom: 1px dotted #ffffff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #FF6347;
+}
+
+
+.fa-angle-right{
+	float: right;
+}
+
+.logo img{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 70px;
+	height: 50px;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #fff;
+}
+.tab button:hover {
+  background-color: #FF6347;
+}
+.tab button.active {
+  background-color: #FF6347;
+}
+.tabcontent {
+	color: #fff;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+body {
+   background-image: url('images/bgi2.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed
+   ;
+   
+  
+   padding-left:115px;
+    padding-right:115px;
+   background-size: 85% 100%;
+}
+
+.tabcontent{
+	color: #ffffff;
+	text-align: center;
+	font-size: 50px;
+}
+.internship{
+	background-color: #FA8072;
+	align-content: center;
+	align-items: center;
+	width: 1110px;
+	height: 550px;
+}
+.internship h1{
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	-webkit-display:flex;
+	font-family: 'Open-Sans', sans-serif;
+	
+}
+ul#design{
+	list-style:none;
+	padding:25px 10px;
+       
+}
+ul#design li{
+padding-bottom: 20px;
+
+}
+
+ul#design a{
+	display:flex;
+	height:50px;
+	width:50px;
+	font-size:30px;
+	color:#ffffff;
+	background-position:50px 50px;
+	padding-top:17px;
+}
+ul#design a img{
+	margin-right:50px;
+	position:relative;
+	float:left;
+	border:1px solid #DDD;
+}
+
+.collection{
+	width:155px;
+	float:left;
+	display: flex;
+	margin-right:70px;
+	padding-top:20px;
+	padding-bottom:20px;
+         padding-left:40px;
+}
+.collection p{
+	font-size:20px;
+	line-height:25px;
+	text-align:center;
+	padding-top:3px;
+       
+	color: #ffffff;
+	border-color: #000000;
+}
+
+.internship .content{
+	-webkit-display: flex;
+	display: flex;
+}
+.internship .content .box{
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding: 15px;
+}
+.internship .content .img img{
+	width:24%;
+	display:  block;	
+	position: absolute;
+	left:50%;
+	top: 15%;
+}
+.internship .content .form input,
+.internship .content .form textarea{
+	height: 45px;
+	width: 100%;
+	padding: 0px 12px;
+	margin-bottom: 25px;
+	background-color: #FFE4E1;
+	border:1px solid #000000;
+	font-family: 'Open-Sans', sans-serif;
+	color: #000000;
+
+}
+.internship .content .form input:focus,
+.internship .content .form textarea:focus{
+	outline: none;
+	border-color: #c11325;
+}
+.internship .content .form input::placeholder,
+.internship .content .form textarea::placeholder{
+	color:#000000;
+}
+.internship .content .form textarea{
+	height: 80px;
+}
+.internship .content .form select{
+	height: 45px;
+	width: 55%;
+	font-size: 17px;
+	padding: 5px;
+	margin-bottom: 25px;
+	background-color: #FFE4E1;
+	border:1px solid#000000;
+	font-family: 'Open-Sans', sans-serif;
+	color: #000000;
+
+}
+.internship .content .form button{
+	border:none;
+	outline:none;
+	box-shadow: none;
+	height: 45px;
+	padding:0px 30px;
+	border:1px solid transparent;
+	background-color: #c11325;
+	color: #000000;
+	font-size:16px;
+	transition: all .5s ease;
+	cursor: pointer;
+}
+.internship .content .form button:hover{
+	background-color: transparent;
+	color: #ffffff;
+	border-color:#ffffff; 
+}
